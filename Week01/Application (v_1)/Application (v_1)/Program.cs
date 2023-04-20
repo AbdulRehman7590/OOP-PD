@@ -24,8 +24,7 @@ namespace App
 
         static string Pin, LoginName, LoginPass;
         static int Count = 0, ProductsCount = 0, Msg = 0, MSGR = 0, MSGC = 2;
-        static string Path = "D:\\2nd semester\\OOP\\PD\\Week01\\Application (v_1)\\Application (v_1)\\Files\\";
-
+        
         static void Main(string[] args)
         {
             /* Program loading  */
@@ -1352,7 +1351,7 @@ namespace App
         static void Storelogindata(string num, string name, string pass, string cntct)
         {
             string textname = "UserData.txt";
-            StreamWriter sign = new StreamWriter(Path + textname, true);
+            StreamWriter sign = new StreamWriter(textname, true);
             sign.WriteLine(num + "," + name + "," + pass + "," + cntct);
             sign.Close();
         }
@@ -1360,9 +1359,9 @@ namespace App
         {
             string line;
             string textname = "UserData.txt";
-            if (File.Exists(Path + textname))
+            if (File.Exists(textname))
             {
-                StreamReader sign = new StreamReader(Path + textname);
+                StreamReader sign = new StreamReader(textname);
                 while (!(sign.EndOfStream))
                 {
                     line = sign.ReadLine();
@@ -1383,7 +1382,7 @@ namespace App
         static void Updatelogindata()
         {
             string textname = "UserData.txt";
-            StreamWriter sign = new StreamWriter(Path + textname);
+            StreamWriter sign = new StreamWriter(textname);
             for (int x = 0; x < Count; x++)
             {
                 sign.WriteLine(Role[x] + "," + Username[x] + "," + Password[x] + "," + Contact[x]);
@@ -1395,9 +1394,9 @@ namespace App
         static void Loadpin()
         {
             string textname = "AdminPin.txt";
-            if (File.Exists(Path + textname))
+            if (File.Exists(textname))
             {
-                StreamReader pinfile = new StreamReader(Path + textname);
+                StreamReader pinfile = new StreamReader(textname);
                 Pin = pinfile.ReadLine();
                 pinfile.Close();
             }
@@ -1405,7 +1404,7 @@ namespace App
         static void Updatepin()
         {
             string textname = "AdminPin.txt";
-            StreamWriter pinfile = new StreamWriter(Path + textname);
+            StreamWriter pinfile = new StreamWriter(textname);
             pinfile.WriteLine(Pin);
             pinfile.Close();
         }
@@ -1414,7 +1413,7 @@ namespace App
         static void StoreProductsData(string name, int value, int ratio, int salevalue)
         {
             string textname = "ProductsData.txt";
-            StreamWriter Prod = new StreamWriter(Path + textname, true);
+            StreamWriter Prod = new StreamWriter(textname, true);
             Prod.WriteLine(name + "," + value + "," + ratio + "," + salevalue);
             Prod.Close();
         }
@@ -1422,9 +1421,9 @@ namespace App
         {
             string line;
             string textname = "ProductsData.txt";
-            if (File.Exists(Path + textname))
+            if (File.Exists(textname))
             {
-                StreamReader Prod = new StreamReader(Path + textname);
+                StreamReader Prod = new StreamReader(textname);
                 while (!(Prod.EndOfStream))
                 {
                     line = Prod.ReadLine();
@@ -1445,7 +1444,7 @@ namespace App
         static void UpdateProductsData()
         {
             string textname = "ProductsData.txt";
-            StreamWriter Prod = new StreamWriter(Path + textname);
+            StreamWriter Prod = new StreamWriter(textname);
             for (int x = 0; x < ProductsCount; x++)
             {
                 Prod.WriteLine(Product[x] + "," + Price[x] + "," + Quantity[x] + "," + Sale[x]);
@@ -1457,7 +1456,7 @@ namespace App
         static void StoreAnnouncements(string name, string announced)
         {
             string textname = "Announcements.txt";
-            StreamWriter announce = new StreamWriter(Path + textname, true);
+            StreamWriter announce = new StreamWriter(textname, true);
             announce.WriteLine(name + "," + announced);
             announce.Close();
         }
@@ -1465,9 +1464,9 @@ namespace App
         {
             string line;
             string textname = "Announcements.txt";
-            if (File.Exists(Path + textname))
+            if (File.Exists(textname))
             {
-                StreamReader announce = new StreamReader(Path + textname);
+                StreamReader announce = new StreamReader(textname);
                 while (!(announce.EndOfStream))
                 {
                     line = announce.ReadLine();
