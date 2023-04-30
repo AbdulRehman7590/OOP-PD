@@ -220,7 +220,7 @@ namespace Game
                 EnemyFireMove(ref r2FireCount, ARROW, r2FireX, r2FireY, maze1);
                 PrintScore(ref score);
                 PrintHeroHealth(ref heart, ref gameExit, ref princehealth);
-                PrintEnemyHealth(ref heart, ref r1Health);
+                PrintEnemyHealth(ref heart, ref r2Health);
                 /* UpdateHealthData(princehealth, r1Health, r2Health); */
                 PrintLoadedArrows(ref loadedArrow, ref ARROW);
                 Reload(ref loadedArrow, ref isFire);
