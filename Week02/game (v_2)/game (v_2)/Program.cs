@@ -10,7 +10,7 @@ using game__v_2_.BL;
 
 namespace Game
 {
-    class Program
+    class Program 
     {
         static void Main(string[] args)
         {

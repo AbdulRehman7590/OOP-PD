@@ -1297,11 +1297,7 @@ namespace App
             {
                 if (loginInfo[x].userName == cname)
                 {
-                    Console.WriteLine(x);
                     num = x;
-                    Console.WriteLine(num);
-                    Console.WriteLine(x);
-                    Halt();
                     break;
                 }
             }
@@ -1340,7 +1336,6 @@ namespace App
         static void Loadlogindata(List<Credentials> info)
         {
             string line;
-            int x = 0;
             string textname = "UserData.txt";
             if (File.Exists(Path + textname))
             {
