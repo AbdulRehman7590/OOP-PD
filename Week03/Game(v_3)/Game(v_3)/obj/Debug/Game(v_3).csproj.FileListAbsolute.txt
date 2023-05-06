@@ -1,0 +1,10 @@
+D:\2nd semester\OOP\PD\Week03\Game(v_3)\Game(v_3)\bin\Debug\Game(v_3).exe.config
+D:\2nd semester\OOP\PD\Week03\Game(v_3)\Game(v_3)\bin\Debug\Game(v_3).exe
+D:\2nd semester\OOP\PD\Week03\Game(v_3)\Game(v_3)\bin\Debug\Game(v_3).pdb
+D:\2nd semester\OOP\PD\Week03\Game(v_3)\Game(v_3)\bin\Debug\EZInput.dll
+D:\2nd semester\OOP\PD\Week03\Game(v_3)\Game(v_3)\bin\Debug\EZInput.xml
+D:\2nd semester\OOP\PD\Week03\Game(v_3)\Game(v_3)\obj\Debug\Game(v_3).csproj.AssemblyReference.cache
+D:\2nd semester\OOP\PD\Week03\Game(v_3)\Game(v_3)\obj\Debug\Game(v_3).csproj.CoreCompileInputs.cache
+D:\2nd semester\OOP\PD\Week03\Game(v_3)\Game(v_3)\obj\Debug\Game(v_3).csproj.CopyComplete
+D:\2nd semester\OOP\PD\Week03\Game(v_3)\Game(v_3)\obj\Debug\Game(v_3).exe
+D:\2nd semester\OOP\PD\Week03\Game(v_3)\Game(v_3)\obj\Debug\Game(v_3).pdb
