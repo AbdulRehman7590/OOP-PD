@@ -1,0 +1,10 @@
+D:\2nd semester\OOP\1stGUI\1st_App_Desktop\1st_App_Desktop\bin\Debug\1st_App_Desktop.exe.config
+D:\2nd semester\OOP\1stGUI\1st_App_Desktop\1st_App_Desktop\bin\Debug\1st_App_Desktop.exe
+D:\2nd semester\OOP\1stGUI\1st_App_Desktop\1st_App_Desktop\bin\Debug\1st_App_Desktop.pdb
+D:\2nd semester\OOP\1stGUI\1st_App_Desktop\1st_App_Desktop\obj\Debug\1st_App_Desktop.csproj.AssemblyReference.cache
+D:\2nd semester\OOP\1stGUI\1st_App_Desktop\1st_App_Desktop\obj\Debug\_1st_App_Desktop.Form1.resources
+D:\2nd semester\OOP\1stGUI\1st_App_Desktop\1st_App_Desktop\obj\Debug\_1st_App_Desktop.Properties.Resources.resources
+D:\2nd semester\OOP\1stGUI\1st_App_Desktop\1st_App_Desktop\obj\Debug\1st_App_Desktop.csproj.GenerateResource.cache
+D:\2nd semester\OOP\1stGUI\1st_App_Desktop\1st_App_Desktop\obj\Debug\1st_App_Desktop.csproj.CoreCompileInputs.cache
+D:\2nd semester\OOP\1stGUI\1st_App_Desktop\1st_App_Desktop\obj\Debug\1st_App_Desktop.exe
+D:\2nd semester\OOP\1stGUI\1st_App_Desktop\1st_App_Desktop\obj\Debug\1st_App_Desktop.pdb

@@ -1,0 +1,10 @@
+D:\2nd semester\OOP\PD\Week09\Problem_02\Problem_02\bin\Debug\Problem_02.exe.config
+D:\2nd semester\OOP\PD\Week09\Problem_02\Problem_02\bin\Debug\Problem_02.exe
+D:\2nd semester\OOP\PD\Week09\Problem_02\Problem_02\bin\Debug\Problem_02.pdb
+D:\2nd semester\OOP\PD\Week09\Problem_02\Problem_02\obj\Debug\Problem_02.csproj.AssemblyReference.cache
+D:\2nd semester\OOP\PD\Week09\Problem_02\Problem_02\obj\Debug\Problem_02.Form1.resources
+D:\2nd semester\OOP\PD\Week09\Problem_02\Problem_02\obj\Debug\Problem_02.Properties.Resources.resources
+D:\2nd semester\OOP\PD\Week09\Problem_02\Problem_02\obj\Debug\Problem_02.csproj.GenerateResource.cache
+D:\2nd semester\OOP\PD\Week09\Problem_02\Problem_02\obj\Debug\Problem_02.csproj.CoreCompileInputs.cache
+D:\2nd semester\OOP\PD\Week09\Problem_02\Problem_02\obj\Debug\Problem_02.exe
+D:\2nd semester\OOP\PD\Week09\Problem_02\Problem_02\obj\Debug\Problem_02.pdb
